@@ -1,7 +1,6 @@
 # Scene Text Detection With Gradient Morphology
 
-Detecting scene text (Text in wild images not in noob documents) with basic image processing techniques like image-dilation and erosion and absolutely zero Machine Learning 😲 
-This is built with OpenCV only because the image processing methods are readily available. To run this use `detext.jar` inside `jar-build` folder. Running it will create a 'filename_localized.jpg' in the same path as of the input.
+Detecting scene text (Text in wild images not in noob documents) with basic image processing techniques like image-dilation and erosion and absolutely zero Machine Learning 😲 . This is built with OpenCV only because the image processing methods are readily available. To run this use `detext.jar` inside `jar-build` folder. Running it will create a 'filename_localized.jpg' in the same path as of the input.
 
 ```shell
 java -jar jar-build/detextscene.jar test.jpeg
